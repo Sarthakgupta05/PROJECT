@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    background-image: url(image.png);
+    font-family: Arial, sans-serif;
+    margin:0;
+  padding:0;
+}
+
+/* Navigation styling */
+.nav {
+    color: #fff;
+    padding: 1rem;
+    background-image: url("bg1.jpg");
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff9900;
+}
+
+/* Welcome section styling */
+#welcome-section {
+    text-align: center;
+    padding: 4rem 0;
+    min-height: max-content;
+}
+
+#welcome-section h1 {
+    color: #faf8f8;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    color: #22e032;
+    font-size: 2rem;
+}
+.pict {
+    width: 200px;
+    height: auto;
+    border-radius: round;
+}
+
+.myself{
+    font-size: 2rem;
+    color: #106096;
+    margin-bottom: 30px;
+}
+
+.ip{
+    font-size: 2rem;
+    color: #CA2C92;
+}
+
+/* Achievements section styling */
+.achievement-section {
+    padding: 2rem;
+    height: 1000px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Achievements-section-header {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: double underline;
+    font-style: italic;
+    color: #ff9900;
+}
+
+.First-Achievement {
+    font-size: 2.2rem;
+    max-width: 50%;
+    min-height: auto;
+    margin-bottom: 1rem;
+    text-decoration: blueviolet;
+    color: #15d6dd;
+    float: left;
+    transform: translateY(100px);  
+}
+
+.fimage {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #111010;
+    border-radius: 5px;
+    float: right;
+}
+
+.Second-Achievement {
+    font-size: 2.2rem;
+    max-width: 50%;
+    min-height: auto;
+    margin-bottom: 3rem;
+    color: #22e032;
+    float: right;
+    transform: translateY(-50px);
+}
+
+.Sec-Image {
+    max-width: 50%;
+    height: 0%;
+    border: 1px solid #57128f;
+    border-radius: 5px;
+    transform: translateY(250px);
+}
+
+/* Qualification section styling */
+.Qualification-section {
+    padding: 2rem;
+    height: 900px;
+
+}
+
+.Qualification-section-header {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-decoration: double underline;
+    font-style: italic;
+    color: #ff9900;
+}
+
+.dpsg {
+    font-size: 2.2rem;
+    max-width: 50%;
+    min-height: auto;
+    margin-bottom: 1rem;
+    text-decoration: rgb(88, 5, 167);
+    color: #a8dd15;
+    float: left;
+    transform: translateY(50px);
+}
+
+.passed {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #111010;
+    border-radius: 5px;
+    float: right;
+}
+
+.muj {
+    font-size: 2.2rem;
+    max-width: 50%;
+    min-height: auto;
+    margin-bottom: 3rem;
+    color: #e41d4f;
+    float: right;
+    transform: translateY(-200px);
+}
+
+.future {
+    max-width: 50%;
+    height: 0%;
+    border: 1px solid #57128f;
+    border-radius: 5px;
+    transform: translateY(100px);
+}
+
+/* Footer (Contact section) styling */
+
+footer {
+    position: fixed;
+    transition: all;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("bg1.jpg");
+    color:white;
+    text-align: center;
+    min-height: auto;
+    text-size-adjust: 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e28914e5;
+    transition: color 0.3s;
+    
+}
+
+footer a:hover {
+    color: #d43333;
+}
